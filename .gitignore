@@ -1,13 +1,32 @@
 __pycache__/
 *.py[cod]
 .Python
+
+# Virtual environments
 .venv/
 venv/
 env/
+
+# Environment and local machine files
 .env
+.env.*
+!.env.example
 .DS_Store
+.idea/
+.vscode/
+
+# Tooling caches
 .pytest_cache/
 .ruff_cache/
+.mypy_cache/
+.pyre/
+.tox/
+.nox/
+.coverage
+coverage.xml
+htmlcov/
+
+# Build artifacts
 dist/
 build/
 *.egg-info/
